@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatefulWidget {
+//  static deixa a variável id não associada a classe, assim ao declarar a rota eu não preciso escrever WelcomeScreen().id, apenas WelcomeScreen.id
+  static String id = 'welcome_screen';
+
   @override
   _WelcomeScreenState createState() => _WelcomeScreenState();
 }
