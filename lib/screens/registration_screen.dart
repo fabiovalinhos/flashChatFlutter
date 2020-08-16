@@ -79,6 +79,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     }
                   } catch (e) {
                     print(e);
+                    print("catch do registration_screen");
                   }
                 },
               ),
